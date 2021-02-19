@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2015-2016 OpenWrt.org
+# Copyright (C) 2015-2021 OpenWrt.org
 #
 # This is free software, licensed under the GNU General Public License v3.
 #
@@ -7,7 +7,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=npc
-PKG_VERSION:=0.23.2
+PKG_VERSION:=0.26.9
 PKG_RELEASE:=1
 
 ifeq ($(ARCH),mipsel)
